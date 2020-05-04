@@ -1,0 +1,4 @@
+.avt_h1{
+    color: #777777;
+}
+li:nth-child(odd){color: seagreen;}
