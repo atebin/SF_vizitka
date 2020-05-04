@@ -1,4 +1,10 @@
-.avt_h1{
-    color: #777777;
+.avt_main{
+    font-family: 'Open Sans', sans-serif;
 }
+
+.avt_main h1, h2{
+    font-family: 'Alegreya SC', serif;
+    color: #555;
+}
+
 li:nth-child(odd){color: seagreen;}
