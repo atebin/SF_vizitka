@@ -7,4 +7,15 @@
     color: #555;
 }
 
+.header-nav{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+.header-nav a{
+    color: darkgreen;
+    margin: 10px;
+}
+
 li:nth-child(odd){color: seagreen;}
