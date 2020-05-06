@@ -9,43 +9,67 @@
         
         <link rel="stylesheet" href="./styles/style.css">
     </head>
-    <body class="avt_main">
-        <header class="header-nav">
+    <body class="avt_body">
+        <header class="avt_header-nav">
             <img src="./images/photo.jpg" alt="Мое фото" height="50">
+            <a href="#best_projects">Лучшие проекты</a>
+            <a href="#contacts">Контакты</a>
             <a href="#about">Обо мне</a>
-            <a href="#education">Образование</a>
-            <a href="#experience">Опыт работы</a>
-            <a href="#hobby">Хобби</a>
-            <a href="#way">Путь разработчика</a>
         </header>
-        <main>
-            <h1>Александр. Разработчик</h1>
-            <img src="./images/photo.jpg" alt="Мое фото" width="300">
-            <h2 id="about">Обо мне</h2>
-            <p>Мне 40 лет и уже лет двадцать я связан с обработкой информации и алгоритмами в производстве, 
-                строительстве, экономике, финансах, маркетинге. И все это не касалось сайтов. <strong>Решил исправить эту несправедливость</strong>.</p>
-            <h2 id="education">Образование</h2>
-            <p>Высшее</p>
-            <h2 id="experience">Опыт работы</h2>
-            <p>Самый разный</p>
-            <h2 id="hobby">Хобби</h2>
-            <p>Фотография: природа, архитектора, репортаж, техника, свадьбы, стройка, люди</p>
-            <h2 id="way">Как я становился разработчиком</h2>
-            <ul>
-                <li>1997-1999: Excel и Pascal</li>
-                <li>2000-2002: VB, Access, SQL, Delphi</li>
-                <li>2011-2012, 2013-2015: 1C</li>
-                <li>2019-2020: HTML, CSS, JS, PHP, Bitrix</li>
-                <li><em>13 апреля 2020</em> я пошел учиться на frontend-разработчика</li>
-            </ul>
+        <main class="avt_main">
+            <section class="avt_section_left">
+                <h1>
+                    <span  style="color: #3b3;">
+                        <img src="./images/person-24px.svg" width="24">
+                        <object style="color: #3b3;" type="image/svg+xml" data="./images/person-24px.svg" id="object" class="icon"></object>
+                    </span>
+                    Александр. Разработчик
+                </h1>
+                
+                <img src="./images/photo.jpg" alt="Мое фото" width="300">
+
+                <h2 id="best_projects">Мои лучшие проекты</h2>
+                <ul>
+                    <li>2018, сентябрь: Проект 1</li>
+                    <li>2018, октябрь: Проект 2</li>
+                    <li>2018, ноябрь: Проект 3</li>
+                    <li>2019, февраль-апрель: Проект 4, 5, 6</li>
+                    <li>2019, май: Проект 7</li>
+                    <li>2019, декабрь: Проект 8</li>
+                    <li>2020, апрель: Проект 9</li>
+                </ul>
+            </section>
+            <section class="avt_section_right">
+                <h2 id="about">Обо мне</h2>
+                <p>Мне 40 лет и уже лет двадцать я связан с обработкой информации и алгоритмами в производстве, 
+                    строительстве, экономике, финансах, маркетинге. И все это не касалось сайтов. <strong>Решил исправить эту несправедливость</strong>.</p>
+                
+                    <h2 id="education">Образование</h2>
+                <p>Высшее</p>
+                
+                <h2 id="experience">Опыт работы</h2>
+                <p>Самый разный</p>
+                
+                <h2 id="hobby">Хобби</h2>
+                <p>Фотография: природа, архитектора, репортаж, техника, свадьбы, стройка, люди</p>
+                
+                <h2 id="way">Как я становился разработчиком</h2>
+                <ul>
+                    <li>1997-1999: Excel и Pascal</li>
+                    <li>2000-2002: VB, Access, SQL, Delphi</li>
+                    <li>2011-2012, 2013-2015: 1C</li>
+                    <li>2019-2020: HTML, CSS, JS, PHP, Bitrix</li>
+                    <li><em>В апреле 2020</em> я пошел учиться на frontend-разработчика</li>
+                </ul>
+            </section>
         </main>
-        <footer>
-            <hr>
-            <h2>Контакты</h2>
+        <footer class="avt_footer">
+            <h2 id="contacts">Контакты</h2>
             <address>
-                Тел.: +7(978)123-45-67<br>
+                Тел: <a href="tel:+79781234567">+7(978)123-45-67</a><br>
                 E-mail: <a href="mailto:mail@yandex.ru">mail@yandex.ru</a>
             </address>
+            <p>Сделано во время обучения в <a href="https://skillfactory.ru/" target="_blank" title="Официальная страница SkillFactory">SkillFactory.ru</a>, 2020 г</p>
         </footer>
     </body>
 </html>

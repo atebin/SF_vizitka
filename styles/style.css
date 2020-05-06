@@ -1,21 +1,58 @@
-.avt_main{
+.avt_body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.avt_main h1, h2{
+.avt_body h1{
     font-family: 'Alegreya SC', serif;
     color: #555;
 }
 
-.header-nav{
+.avt_body section h2{
+    font-family: 'Alegreya SC', serif;
+    color: #555;
+    padding-left: 10px;
+    border-left: solid 6px #3b3;
+}
+
+.avt_header-nav{
     display: flex;
     justify-content: center;
     border-bottom: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
-.header-nav a{
-    color: darkgreen;
+.avt_footer{
+    border-top: 1px solid gray;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+.avt_footer p{
+    font-size: 12px;
+}
+
+.avt_footer h2{
+    font-family: 'Alegreya SC', serif;
+    color: #555;
+    padding-left: 10px;
+}
+
+.avt_header-nav a{
+    color: #3b3;
     margin: 10px;
 }
 
-li:nth-child(odd){color: seagreen;}
+.avt_main{
+    display: flex;
+}
+
+.avt_section_left{
+    width: 40%;
+    padding: 10px 40px;
+}
+
+.avt_section_right{
+    width: 60%;
+    padding: 10px 40px;
+}
