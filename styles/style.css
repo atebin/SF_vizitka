@@ -56,3 +56,11 @@
     width: 60%;
     padding: 10px 40px;
 }
+
+@media (max-width: 414px){
+
+    .avt_main{
+        display: flex;
+        flex-direction: column;
+    }
+}
